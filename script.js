@@ -28,10 +28,10 @@ const init = function () {
     current1El.textContent = 0;
 
     diceEl.classList.add('hidden');
-    player0El.classList.remove('player-winner');
-    player1El.classList.remove('player-winner');
-    player0El.classList.add('player-active');
-    player1El.classList.remove('player-active');
+    player0El.classList.remove('player--winner');
+    player1El.classList.remove('player--winner');
+    player0El.classList.add('player--active');
+    player1El.classList.remove('player--active');
 
 }
 init();
